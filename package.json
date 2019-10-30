@@ -1,25 +1,24 @@
+
 {
-
-  "name": "Example",
-
-  "description": "Example",
-
-  "version": "0.0.0",
-
+  "name": "YoeyBot",
+  "version": "1.0.0",
+  "description": "An in-depth guide on deploying your Discord.js bot on Heroku",
   "main": "bot.js",
-
   "scripts": {
-
-    "start": "node bot.js"
-
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-
-  "dependencies": {
-
-    "discord.js": "11.1.0",
-
-    "request": "2.81.0"
-
-  }
-
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/einstein8612/yoejBot.git"
+  },
+  "keywords": [
+    "heroku",
+    "discord.js"
+  ],
+  "author": "einstein8612",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/einstein8612/discord.js-heroku/issues"
+  },
+  "homepage": "https://github.com/einstein8612/discord.js-heroku#readme"
 }
